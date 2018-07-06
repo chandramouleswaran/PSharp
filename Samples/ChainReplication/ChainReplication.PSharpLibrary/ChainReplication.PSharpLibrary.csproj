@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\..\..\Build\common.props" />
   <PropertyGroup>
-    <AssemblyName>ChainReplication.PSharpLibrary</AssemblyName>
     <Description>The ChainReplication P# sample.</Description>
-    <AssemblyTitle>ChainReplication.PSharpLibrary</AssemblyTitle>
-    <TargetFrameworks>net46</TargetFrameworks>
+    <AssemblyName>ChainReplication.PSharpLibrary</AssemblyName>
+    <RootNamespace>ChainReplication.PSharpLibrary</RootNamespace>
+    <TargetFrameworks>netcoreapp2.1;net46</TargetFrameworks>
     <OutputType>Exe</OutputType>
   </PropertyGroup>
   <PropertyGroup>

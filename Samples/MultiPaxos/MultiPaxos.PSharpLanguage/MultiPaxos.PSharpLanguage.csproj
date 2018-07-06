@@ -2,9 +2,9 @@
   <Import Project="..\..\..\Build\common.props" />
   <Import Project="..\..\..\bin\net46\PSharp.vs2017.targets" />
   <PropertyGroup>
-    <AssemblyName>MultiPaxos.PSharpLanguage</AssemblyName>
     <Description>The MultiPaxos P# sample.</Description>
-    <AssemblyTitle>MultiPaxos.PSharpLanguage</AssemblyTitle>
+    <AssemblyName>MultiPaxos.PSharpLanguage</AssemblyName>
+    <RootNamespace>MultiPaxos.PSharpLanguage</RootNamespace>
     <TargetFrameworks>net46</TargetFrameworks>
     <OutputType>Exe</OutputType>
   </PropertyGroup>

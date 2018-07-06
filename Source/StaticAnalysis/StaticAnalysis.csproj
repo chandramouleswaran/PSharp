@@ -2,12 +2,11 @@
   <Import Project="..\..\Build\common.props" />
   <Import Project="..\..\Build\key.props" />
   <PropertyGroup>
-    <AssemblyName>Microsoft.PSharp.StaticAnalysis</AssemblyName>
     <Description>The P# static analysis library.</Description>
-    <AssemblyTitle>Microsoft.PSharp.StaticAnalysis</AssemblyTitle>
+    <AssemblyName>Microsoft.PSharp.StaticAnalysis</AssemblyName>
+    <RootNamespace>Microsoft.PSharp.StaticAnalysis</RootNamespace>
     <TargetFrameworks>net46</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
     <PackageTags>asynchronous;event-driven;state-machines;systematic-testing;dotnet;csharp</PackageTags>
   </PropertyGroup>
   <PropertyGroup>

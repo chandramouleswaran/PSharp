@@ -2,9 +2,9 @@
   <Import Project="..\..\..\Build\common.props" />
   <Import Project="..\..\..\bin\net46\PSharp.vs2017.targets" />
   <PropertyGroup>
-    <AssemblyName>FailureDetector.PSharpLanguage</AssemblyName>
     <Description>The FailureDetector P# sample.</Description>
-    <AssemblyTitle>FailureDetector.PSharpLanguage</AssemblyTitle>
+    <AssemblyName>FailureDetector.PSharpLanguage</AssemblyName>
+    <RootNamespace>FailureDetector.PSharpLanguage</RootNamespace>
     <TargetFrameworks>net46</TargetFrameworks>
     <OutputType>Exe</OutputType>
   </PropertyGroup>

@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\..\..\Build\common.props" />
   <PropertyGroup>
-    <AssemblyName>TimerSample</AssemblyName>
     <Description>P# sample using Timers.</Description>
-    <AssemblyTitle>TimerSample</AssemblyTitle>
-    <TargetFrameworks>net46</TargetFrameworks>
+    <AssemblyName>TimerSample</AssemblyName>
+    <RootNamespace>TimerSample</RootNamespace>
+    <TargetFrameworks>netcoreapp2.1;net46</TargetFrameworks>
     <OutputType>Exe</OutputType>
   </PropertyGroup>
 

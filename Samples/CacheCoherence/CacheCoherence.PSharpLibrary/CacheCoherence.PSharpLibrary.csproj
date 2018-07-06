@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\..\..\Build\common.props" />
   <PropertyGroup>
-    <AssemblyName>CacheCoherence.PSharpLibrary</AssemblyName>
     <Description>The CacheCoherence P# sample.</Description>
-    <AssemblyTitle>CacheCoherence.PSharpLibrary</AssemblyTitle>
-    <TargetFrameworks>net46</TargetFrameworks>
+    <AssemblyName>CacheCoherence.PSharpLibrary</AssemblyName>
+    <RootNamespace>CacheCoherence.PSharpLibrary</RootNamespace>
+    <TargetFrameworks>netcoreapp2.1;net46</TargetFrameworks>
     <OutputType>Exe</OutputType>
   </PropertyGroup>
   <PropertyGroup>

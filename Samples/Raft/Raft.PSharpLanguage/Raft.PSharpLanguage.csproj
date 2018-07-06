@@ -2,9 +2,9 @@
   <Import Project="..\..\..\Build\common.props" />
   <Import Project="..\..\..\bin\net46\PSharp.vs2017.targets" />
   <PropertyGroup>
-    <AssemblyName>Raft.PSharpLanguage</AssemblyName>
     <Description>The Raft P# sample.</Description>
-    <AssemblyTitle>Raft.PSharpLanguage</AssemblyTitle>
+    <AssemblyName>Raft.PSharpLanguage</AssemblyName>
+    <RootNamespace>Raft.PSharpLanguage</RootNamespace>
     <TargetFrameworks>net46</TargetFrameworks>
     <OutputType>Exe</OutputType>
   </PropertyGroup>

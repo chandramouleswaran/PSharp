@@ -2,9 +2,9 @@
   <Import Project="..\..\..\Build\common.props" />
   <Import Project="..\..\..\bin\net46\PSharp.vs2017.targets" />
   <PropertyGroup>
-    <AssemblyName>PingPong.CustomLogging</AssemblyName>
     <Description>The PingPong P# sample.</Description>
-    <AssemblyTitle>PingPong.CustomLogging</AssemblyTitle>
+    <AssemblyName>PingPong.CustomLogging</AssemblyName>
+    <RootNamespace>PingPong.CustomLogging</RootNamespace>
     <TargetFrameworks>net46</TargetFrameworks>
     <OutputType>Exe</OutputType>
   </PropertyGroup>

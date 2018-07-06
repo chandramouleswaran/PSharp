@@ -2,9 +2,9 @@
   <Import Project="..\..\..\Build\common.props" />
   <Import Project="..\..\..\bin\net46\PSharp.vs2017.targets" />
   <PropertyGroup>
-    <AssemblyName>PingPong.PSharpLanguage.AsyncAwait</AssemblyName>
     <Description>The PingPong P# sample.</Description>
-    <AssemblyTitle>PingPong.PSharpLanguage.AsyncAwait</AssemblyTitle>
+    <AssemblyName>PingPong.PSharpLanguage.AsyncAwait</AssemblyName>
+    <RootNamespace>PingPong.PSharpLanguage.AsyncAwait</RootNamespace>
     <TargetFrameworks>net46</TargetFrameworks>
     <OutputType>Exe</OutputType>
   </PropertyGroup>

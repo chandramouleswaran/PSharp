@@ -2,9 +2,9 @@
   <Import Project="..\..\..\Build\common.props" />
   <Import Project="..\..\..\bin\net46\PSharp.vs2017.targets" />
   <PropertyGroup>
-    <AssemblyName>ReplicatingStorage.PSharpLanguage</AssemblyName>
     <Description>The ReplicatingStorage P# sample.</Description>
-    <AssemblyTitle>ReplicatingStorage.PSharpLanguage</AssemblyTitle>
+    <AssemblyName>ReplicatingStorage.PSharpLanguage</AssemblyName>
+    <RootNamespace>ReplicatingStorage.PSharpLanguage</RootNamespace>
     <TargetFrameworks>net46</TargetFrameworks>
     <OutputType>Exe</OutputType>
   </PropertyGroup>

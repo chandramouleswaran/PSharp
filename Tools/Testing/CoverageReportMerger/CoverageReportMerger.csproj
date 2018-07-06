@@ -2,9 +2,9 @@
   <Import Project="..\..\..\Build\common.props" />
   <Import Project="..\..\..\Build\key.props" />
   <PropertyGroup>
-    <AssemblyName>PSharpCoverageReportMerger</AssemblyName>
     <Description>The P# coverage report merger.</Description>
-    <AssemblyTitle>PSharpCoverageReportMerger</AssemblyTitle>
+    <AssemblyName>PSharpCoverageReportMerger</AssemblyName>
+    <RootNamespace>PSharpCoverageReportMerger</RootNamespace>
     <TargetFrameworks>net46</TargetFrameworks>
     <OutputType>Exe</OutputType>
     <PackageTags>coverage;merger;psharp</PackageTags>

@@ -2,9 +2,9 @@
   <Import Project="..\..\..\Build\common.props" />
   <Import Project="..\..\..\bin\net46\PSharp.vs2017.targets" />
   <PropertyGroup>
-    <AssemblyName>BoundedAsync.PSharpLanguage</AssemblyName>
     <Description>The BoundedAsync P# sample.</Description>
-    <AssemblyTitle>BoundedAsync.PSharpLanguage</AssemblyTitle>
+    <AssemblyName>BoundedAsync.PSharpLanguage</AssemblyName>
+    <RootNamespace>BoundedAsync.PSharpLanguage</RootNamespace>
     <TargetFrameworks>net46</TargetFrameworks>
     <OutputType>Exe</OutputType>
   </PropertyGroup>

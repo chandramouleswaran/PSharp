@@ -2,9 +2,9 @@
   <Import Project="..\..\..\Build\common.props" />
   <Import Project="..\..\..\Build\key.props" />
   <PropertyGroup>
-    <AssemblyName>PSharpSyntaxRewriter</AssemblyName>
     <Description>The P# syntax rewriter.</Description>
-    <AssemblyTitle>PSharpSyntaxRewriter</AssemblyTitle>
+    <AssemblyName>PSharpSyntaxRewriter</AssemblyName>
+    <RootNamespace>PSharpSyntaxRewriter</RootNamespace>
     <TargetFrameworks>net46</TargetFrameworks>
     <OutputType>Exe</OutputType>
     <PackageTags>syntax;rewriter;psharp</PackageTags>

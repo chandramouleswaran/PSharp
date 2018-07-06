@@ -2,9 +2,9 @@
   <Import Project="..\..\..\Build\common.props" />
   <Import Project="..\..\..\Build\key.props" />
   <PropertyGroup>
-    <AssemblyName>PSharpReplayer</AssemblyName>
     <Description>The P# bug-trace replayer.</Description>
-    <AssemblyTitle>PSharpReplayer</AssemblyTitle>
+    <AssemblyName>PSharpReplayer</AssemblyName>
+    <RootNamespace>PSharpReplayer</RootNamespace>
     <TargetFrameworks>net46</TargetFrameworks>
     <OutputType>Exe</OutputType>
     <PackageTags>bug;trace;replay;psharp</PackageTags>
